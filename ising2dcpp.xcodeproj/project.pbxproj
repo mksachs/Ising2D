@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		256AC3DA0F4B6AC300CF3369 /* ising2dcppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* ising2dcppAppDelegate.m */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B82C0C6813280DE900F46CEB /* Ising.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B82C0C4F13280D5C00F46CEB /* Ising.cpp */; };
+		B82C0C6A13280DE900F46CEB /* MetropolisIsing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B82C0C5213280D5C00F46CEB /* MetropolisIsing.cpp */; };
+		B82C0C6C13280DE900F46CEB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B82C0C5113280D5C00F46CEB /* main.cpp */; };
+		B847450E17A864A800B845BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B847450A17A864A800B845BF /* InfoPlist.strings */; };
+		B847450F17A864A800B845BF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B847450C17A864A800B845BF /* MainMenu.xib */; };
+		B888C4C313282C04003E8899 /* ISStateView.mm in Sources */ = {isa = PBXBuildFile; fileRef = B888C4C213282C04003E8899 /* ISStateView.mm */; };
+		B888C4DD13282E2D003E8899 /* Ising.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B82C0C4F13280D5C00F46CEB /* Ising.cpp */; };
+		B888C4DE13282E2D003E8899 /* MetropolisIsing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B82C0C5213280D5C00F46CEB /* MetropolisIsing.cpp */; };
+		B888C50D13283D95003E8899 /* ISController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B888C50C13283D95003E8899 /* ISController.mm */; };
+		B896D40C132E9617005BD439 /* ISEAndMView.mm in Sources */ = {isa = PBXBuildFile; fileRef = B896D40B132E9617005BD439 /* ISEAndMView.mm */; };
+		B896D44D132EA617005BD439 /* t_inf.png in Resources */ = {isa = PBXBuildFile; fileRef = B896D44B132EA617005BD439 /* t_inf.png */; };
+		B896D44E132EA617005BD439 /* t_zero.png in Resources */ = {isa = PBXBuildFile; fileRef = B896D44C132EA617005BD439 /* t_zero.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		256AC3D80F4B6AC300CF3369 /* ising2dcppAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ising2dcppAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* ising2dcppAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ising2dcppAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* ising2dcpp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ising2dcpp_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* ising2dcpp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ising2dcpp-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* ising2dcpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ising2dcpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82C0C4F13280D5C00F46CEB /* Ising.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ising.cpp; sourceTree = "<group>"; };
+		B82C0C5013280D5C00F46CEB /* Ising.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ising.h; sourceTree = "<group>"; };
+		B82C0C5113280D5C00F46CEB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B82C0C5213280D5C00F46CEB /* MetropolisIsing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MetropolisIsing.cpp; sourceTree = "<group>"; };
+		B82C0C5313280D5C00F46CEB /* MetropolisIsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetropolisIsing.h; sourceTree = "<group>"; };
+		B82C0C6413280DCD00F46CEB /* ising2dCL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ising2dCL; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82C0C9313280F4200F46CEB /* parseIsingSim.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = parseIsingSim.py; sourceTree = "<group>"; };
+		B82C0C9413280F4200F46CEB /* sandbox.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = sandbox.py; sourceTree = "<group>"; };
+		B84744DB17A8628500B845BF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B847450B17A864A800B845BF /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = InfoPlist.strings; sourceTree = "<group>"; };
+		B847450D17A864A800B845BF /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = MainMenu.xib; sourceTree = "<group>"; };
+		B888C4C113282C04003E8899 /* ISStateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISStateView.h; sourceTree = "<group>"; };
+		B888C4C213282C04003E8899 /* ISStateView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ISStateView.mm; sourceTree = "<group>"; };
+		B888C50B13283D95003E8899 /* ISController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISController.h; sourceTree = "<group>"; };
+		B888C50C13283D95003E8899 /* ISController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ISController.mm; sourceTree = "<group>"; };
+		B896D40A132E9617005BD439 /* ISEAndMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISEAndMView.h; sourceTree = "<group>"; };
+		B896D40B132E9617005BD439 /* ISEAndMView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ISEAndMView.mm; sourceTree = "<group>"; };
+		B896D44B132EA617005BD439 /* t_inf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t_inf.png; sourceTree = "<group>"; };
+		B896D44C132EA617005BD439 /* t_zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t_zero.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82C0C6213280DCD00F46CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* ising2dcppAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* ising2dcppAppDelegate.m */,
+				B82C0C4F13280D5C00F46CEB /* Ising.cpp */,
+				B82C0C5013280D5C00F46CEB /* Ising.h */,
+				B82C0C5213280D5C00F46CEB /* MetropolisIsing.cpp */,
+				B82C0C5313280D5C00F46CEB /* MetropolisIsing.h */,
+				B888C4C113282C04003E8899 /* ISStateView.h */,
+				B888C4C213282C04003E8899 /* ISStateView.mm */,
+				B888C50B13283D95003E8899 /* ISController.h */,
+				B888C50C13283D95003E8899 /* ISController.mm */,
+				B896D40A132E9617005BD439 /* ISEAndMView.h */,
+				B896D40B132E9617005BD439 /* ISEAndMView.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* ising2dcpp.app */,
+				B82C0C6413280DCD00F46CEB /* ising2dCL */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ising2dcpp */ = {
+			isa = PBXGroup;
+			children = (
+				B896D44B132EA617005BD439 /* t_inf.png */,
+				B896D44C132EA617005BD439 /* t_zero.png */,
+				B82C0C9113280F0F00F46CEB /* Python */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = ising2dcpp;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B82C0C5113280D5C00F46CEB /* main.cpp */,
+				256AC3F00F4B6AF500CF3369 /* ising2dcpp_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B847450917A864A800B845BF /* English.lproj */,
+				8D1107310486CEB800E47090 /* ising2dcpp-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				B84744DB17A8628500B845BF /* Cocoa.framework */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B82C0C9113280F0F00F46CEB /* Python */ = {
+			isa = PBXGroup;
+			children = (
+				B82C0C9313280F4200F46CEB /* parseIsingSim.py */,
+				B82C0C9413280F4200F46CEB /* sandbox.py */,
+			);
+			name = Python;
+			sourceTree = "<group>";
+		};
+		B847450917A864A800B845BF /* English.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				B847450A17A864A800B845BF /* InfoPlist.strings */,
+				B847450C17A864A800B845BF /* MainMenu.xib */,
+			);
+			path = English.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* ising2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ising2d" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ising2d;
+			productInstallPath = "$(HOME)/Applications";
+			productName = ising2dcpp;
+			productReference = 8D1107320486CEB800E47090 /* ising2dcpp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B82C0C6313280DCD00F46CEB /* ising2dCL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B82C0C8513280E2300F46CEB /* Build configuration list for PBXNativeTarget "ising2dCL" */;
+			buildPhases = (
+				B82C0C6113280DCD00F46CEB /* Sources */,
+				B82C0C6213280DCD00F46CEB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ising2dCL;
+			productName = ising2dCL;
+			productReference = B82C0C6413280DCD00F46CEB /* ising2dCL */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ising2dcpp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ising2dcpp */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* ising2d */,
+				B82C0C6313280DCD00F46CEB /* ising2dCL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B896D44D132EA617005BD439 /* t_inf.png in Resources */,
+				B896D44E132EA617005BD439 /* t_zero.png in Resources */,
+				B847450E17A864A800B845BF /* InfoPlist.strings in Resources */,
+				B847450F17A864A800B845BF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B888C4DD13282E2D003E8899 /* Ising.cpp in Sources */,
+				B888C4DE13282E2D003E8899 /* MetropolisIsing.cpp in Sources */,
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* ising2dcppAppDelegate.m in Sources */,
+				B888C4C313282C04003E8899 /* ISStateView.mm in Sources */,
+				B888C50D13283D95003E8899 /* ISController.mm in Sources */,
+				B896D40C132E9617005BD439 /* ISEAndMView.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82C0C6113280DCD00F46CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82C0C6813280DE900F46CEB /* Ising.cpp in Sources */,
+				B82C0C6A13280DE900F46CEB /* MetropolisIsing.cpp in Sources */,
+				B82C0C6C13280DE900F46CEB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B847450A17A864A800B845BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B847450B17A864A800B845BF /* English */,
+			);
+			name = InfoPlist.strings;
+			path = English.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		B847450C17A864A800B845BF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B847450D17A864A800B845BF /* English */,
+			);
+			name = MainMenu.xib;
+			path = English.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B82C0C6613280DCE00F46CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = ising2dCL;
+			};
+			name = Debug;
+		};
+		B82C0C6713280DCE00F46CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = ising2dCL;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ising2dcpp_Prefix.pch;
+				INFOPLIST_FILE = "ising2dcpp-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ising2dcpp;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ising2dcpp_Prefix.pch;
+				INFOPLIST_FILE = "ising2dcpp-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = ising2dcpp;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B82C0C8513280E2300F46CEB /* Build configuration list for PBXNativeTarget "ising2dCL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82C0C6613280DCE00F46CEB /* Debug */,
+				B82C0C6713280DCE00F46CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ising2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ising2dcpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
